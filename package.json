@@ -1,0 +1,19 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Shourya Sahu",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js",
+    "chacha": "echo \"Chacha is here!\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "accessibility": "^3.0.9",
+    "express": "^4.19.2",
+    "one-liner-joke": "^1.2.2"
+  }
+}
