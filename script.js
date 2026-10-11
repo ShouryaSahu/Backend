@@ -9,10 +9,10 @@ const fs = require('node:fs');
 // rmdir (remove directory) in this directory must be empty as it remove folder so folder should be empty
 
 
-// fs.writeFile("hey.txt", "Hey hello kaise ho!!", function(err){
-//     if(err) console.error(err);
-//     else console.log("Done");
-// })
+fs.writeFile("hey.txt", "Hey hello kaise ho!!", function(err){
+    if(err) console.error(err);
+    else console.log("Done");
+})
 
 
 // fs.appendFile("hey.txt", "I use node to append in text file", function(err){
