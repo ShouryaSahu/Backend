@@ -13,8 +13,12 @@
   },
   "dependencies": {
     "accessibility": "^3.0.9",
+    "bcrypt": "^6.0.0",
     "cookie-parser": "^1.4.7",
+    "ejs": "^7.0.2",
     "express": "^4.22.3",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.11.3",
     "one-liner-joke": "^1.2.2"
   }
 }
